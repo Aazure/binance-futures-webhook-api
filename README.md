@@ -35,21 +35,12 @@ This API is designed to receive webhook alerts for trading signals and execute c
     API_KEY=your_binance_api_key
     API_SECRET=your_binance_api_secret
     ```
-
-## Running the API
-
-Start the server using Bun:
-
-    ```bash
-    bun run index.ts
-    ```
-
 ## Usage
 
 1. Start the server:
 
     ```bash
-    npm start
+    bun run index.ts
     ```
 
 2. Set up a webhook alert in TradingView with the following JSON payload format:
@@ -85,3 +76,8 @@ Start the server using Bun:
       "side": "buy",
       "quantity": "0.01"
   }
+
+## Restrictions
+
+Please note that the Binance API may not accept requests originating from IP addresses geolocated in certain prohibited countries. Before using this API, ensure that your IP address is not associated with a location subject to Binance's restrictions. For the most up-to-date list of prohibited countries, please refer to the [Binance List of Prohibited Countries](https://www.binance.com/en/legal/list-of-prohibited-countries).
+
