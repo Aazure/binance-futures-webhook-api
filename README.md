@@ -19,7 +19,7 @@ This API is designed to receive webhook alerts for trading signals and execute c
 1. Clone the repository and navigate to the project directory:
 
     ```bash
-    git clone https://github.com/your-username/binance-futures-webhook-api.git
+    git clone https://github.com/aazure/binance-futures-webhook-api.git
     cd binance-futures-webhook-api
     ```
 
