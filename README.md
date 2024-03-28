@@ -7,6 +7,7 @@ This API is designed to receive webhook alerts for trading signals and execute c
 - Receive trading signals via webhook alerts.
 - Execute market orders on Binance Futures.
 - Set trailing stop orders with customizable activation prices and callback rates.
+- Automatically cancel existing trailing stop orders before placing new ones.
 
 ## Prerequisites
 
